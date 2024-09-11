@@ -1,0 +1,80 @@
+/* Input and textarea styling */
+.form-floating input, 
+.form-floating textarea {
+    background-color: #f9f9f9;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    border-radius: 0;
+    padding: 15px;
+    font-size: 16px;
+    color: #333;
+    transition: all 0.3s ease;
+    box-shadow: none;
+}
+
+/* Hover and focus effects */
+.form-floating input:hover, 
+.form-floating textarea:hover {
+    border-bottom: 2px solid #007bff;
+}
+
+.form-floating input:focus, 
+.form-floating textarea:focus {
+    border-bottom: 2px solid #007bff;
+    outline: none;
+    background-color: #fff;
+}
+
+/* Label styling */
+.form-floating label {
+    font-size: 14px;
+    color: #777;
+    transition: all 0.3s ease;
+}
+
+/* Label animation */
+.form-floating input:focus + label, 
+.form-floating input:not(:placeholder-shown) + label,
+.form-floating textarea:focus + label,
+.form-floating textarea:not(:placeholder-shown) + label {
+    font-size: 12px;
+    color: #007bff;
+    transform: translateY(-30px);
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 15px;
+    border-radius: 50px;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 123, 255, 0.3);
+    text-transform: uppercase;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 123, 255, 0.5);
+}
+
+/* Add subtle animation on form elements */
+.form-floating input, 
+.form-floating textarea, 
+.btn-primary {
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
