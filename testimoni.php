@@ -58,12 +58,12 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                        <a href="index.php" class="nav-item nav-link active">Home</a>
+                        <a href="index.php" class="nav-item nav-link ">Home</a>
                         <a href="about.php" class="nav-item nav-link">About</a>
                         <a href="service.php" class="nav-item nav-link">Service</a>
                         <a href="project.php" class="nav-item nav-link">Project</a>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                            <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu m-0">
                                 <a href="team.php" class="dropdown-item">Our Team</a>
                                 <a href="testimoni.php" class="dropdown-item">Testimonial</a>
@@ -118,53 +118,53 @@
                     <div class="owl-carousel testimonial-carousel">
                         <div class="testimonial-item bg-transparent border rounded text-white p-4">
                             <i class="fa fa-quote-left fa-2x mb-3"></i>
-                            <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos
-                                labore diam</p>
+                            <p>Pelayanan memuaskan dan memecahkan masalah dengan solusi yang cepat dan tepat sesuai
+                                tujuan perusahaan kami yang mementingkan kualitas diatas kuantitas.</p>
                             <div class="d-flex align-items-center">
-                                <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg"
+                                <img class="img-fluid flex-shrink-0 rounded-circle" src="img/properti1.png"
                                     style="width: 50px; height: 50px;">
                                 <div class="ps-3">
-                                    <h6 class="text-white mb-1">Client Name</h6>
-                                    <small>Profession</small>
+                                    <h6 class="text-white mb-1">Ahmad Lutfi</h6>
+                                    <small>Bagus Teknik</small>
                                 </div>
                             </div>
                         </div>
                         <div class="testimonial-item bg-transparent border rounded text-white p-4">
                             <i class="fa fa-quote-left fa-2x mb-3"></i>
-                            <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos
-                                labore diam</p>
+                            <p>Projek lama kami terselesaikan dengan solusi yang memuaskan bagi perusahaan saya, mesin
+                                antrian berjalan dengan mulus dan baik, pelayanan tidak diragukan</p>
                             <div class="d-flex align-items-center">
-                                <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg"
+                                <img class="img-fluid flex-shrink-0 rounded-circle" src="img/properti2.png"
                                     style="width: 50px; height: 50px;">
                                 <div class="ps-3">
-                                    <h6 class="text-white mb-1">Client Name</h6>
-                                    <small>Profession</small>
+                                    <h6 class="text-white mb-1">Fajar Pangestu</h6>
+                                    <small>Rekor Makmur Rental Truck</small>
                                 </div>
                             </div>
                         </div>
                         <div class="testimonial-item bg-transparent border rounded text-white p-4">
                             <i class="fa fa-quote-left fa-2x mb-3"></i>
-                            <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos
-                                labore diam</p>
+                            <p>Website yang telah dibuat sangat berguna bagi ponpes kami dan terimakasih telah bekerja
+                                sama dalam bidang pembelajaran dunia IT di pesantren.</p>
                             <div class="d-flex align-items-center">
-                                <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg"
+                                <img class="img-fluid flex-shrink-0 rounded-circle" src="img/properti10.png"
                                     style="width: 50px; height: 50px;">
                                 <div class="ps-3">
-                                    <h6 class="text-white mb-1">Client Name</h6>
-                                    <small>Profession</small>
+                                    <h6 class="text-white mb-1">H. Gunawan Tri Murdi</h6>
+                                    <small>Ponpes Al-Wafa</small>
                                 </div>
                             </div>
                         </div>
                         <div class="testimonial-item bg-transparent border rounded text-white p-4">
                             <i class="fa fa-quote-left fa-2x mb-3"></i>
-                            <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos
-                                labore diam</p>
+                            <p>Perbaikan dan perawatan komputer dan aset perusahaan saya dibagian teknologi yang di
+                                pegang oleh alfazza sangat baik, kami buktinya</p>
                             <div class="d-flex align-items-center">
-                                <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-4.jpg"
+                                <img class="img-fluid flex-shrink-0 rounded-circle" src="img/Properti3.png"
                                     style="width: 50px; height: 50px;">
                                 <div class="ps-3">
-                                    <h6 class="text-white mb-1">Client Name</h6>
-                                    <small>Profession</small>
+                                    <h6 class="text-white mb-1">Slamet Riyadi</h6>
+                                    <small>M2 Network</small>
                                 </div>
                             </div>
                         </div>
@@ -246,17 +246,14 @@
                             <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
                                 &copy; <a class="border-bottom" href="#">Alfazza solusi Indonesia</a>, All Right
                                 Reserved.
-
-                                <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
                                 Designed By <a class="border-bottom"
                                     href="https://petanimilenial.org">Petanimilenial</a>
                             </div>
                             <div class="col-md-6 text-center text-md-end">
                                 <div class="footer-menu">
-                                    <a href="">Home</a>
-                                    <a href="">Cookies</a>
-                                    <a href="">Help</a>
-                                    <a href="">FQAs</a>
+                                    <a href="index.php">Home</a>
+                                    <a href="cookies.php">Cookies</a>
+                                    <a href="faqp.php">FQAs</a>
                                 </div>
                             </div>
                         </div>

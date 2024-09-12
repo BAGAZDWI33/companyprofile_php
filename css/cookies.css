@@ -1,0 +1,85 @@
+/* Cookie notification bar */
+.cookie-notification {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #323232;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Cookie policy text and link */
+.cookie-notification p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.cookie-notification a {
+    color: #00d1b2;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.cookie-notification a:hover {
+    text-decoration: none;
+}
+
+/* Accept button */
+.cookie-btn {
+    background-color: #00d1b2;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.cookie-btn:hover {
+    background-color: #00a899;
+}
+
+/* Hide the notification once accepted */
+.cookie-notification.hidden {
+    display: none;
+}
+
+/* Hidden cookie details section */
+.cookie-details {
+    display: none;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+.cookie-details h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.cookie-details p, .cookie-details ul {
+    font-size: 14px;
+}
+
+.cookie-details button {
+    margin-top: 10px;
+}
+
+/* Show hidden section when clicked */
+.cookie-details.shown {
+    display: block;
+}

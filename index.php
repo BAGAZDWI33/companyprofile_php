@@ -125,7 +125,7 @@
         <!-- About Start -->
         <div class="container-xxl py-5">
             <div class="container px-lg-5">
-                <div class="row g-5">
+                <div class="row g-5" id="home">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="section-title position-relative mb-4 pb-2">
                             <h6 class="position-relative text-primary ps-4">About Us</h6>
@@ -152,11 +152,13 @@
                         </div>
                         <div class="d-flex align-items-center mt-4">
                             <a class="btn btn-primary rounded-pill px-4 me-3" href="">Read More</a>
-                            <a class="btn btn-outline-primary btn-square me-3" href=""><i
+                            <a class="btn btn-outline-primary btn-square me-3"
+                                href="https://www.facebook.com/profile.php?id=100064542862628"><i
                                     class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-outline-primary btn-square me-3" href=""><i
                                     class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-primary btn-square me-3" href=""><i
+                            <a class="btn btn-outline-primary btn-square me-3"
+                                href="https://www.instagram.com/alfazzatech?igsh=MTAzcGFnMTJxYjV0Zg=="><i
                                     class="fab fa-instagram"></i></a>
                             <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
                         </div>
@@ -235,13 +237,15 @@
                 <div class="row align-items-center" style="height: 250px;">
                     <div class="col-12 col-md-6">
                         <h3 class="text-white">Ingin berdiskusi ide produk untuk Solusi Teknologi anda?</h3>
-                        <small class="text-white">mulai dari sekarang bersama Alfazza Solusi Indonesia </small>
-                        <div class="position-relative w-100 mt-3">
-                            <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text"
-                                placeholder="Enter Your Email" style="height: 48px;">
-                            <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i
-                                    class="fa fa-paper-plane text-primary fs-4"></i></button>
-                        </div>
+                        <small class="text-white">Mulai dari sekarang bersama Alfazza Solusi Indonesia</small>
+                        <form action="send-email.php" method="POST">
+                            <div class="position-relative w-100 mt-3">
+                                <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="email"
+                                    name="email" placeholder="Enter Your Email" style="height: 48px;" required>
+                                <button type="submit" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i
+                                        class="fa fa-paper-plane text-primary fs-4"></i></button>
+                            </div>
+                        </form>
                     </div>
                     <div class="col-md-6 text-center mb-n5 d-none d-md-block">
                         <img class="img-fluid mt-5" style="height: 250px;" src="img/newsletter.png">
@@ -467,16 +471,20 @@
                         <p><i class="fa fa-envelope me-3"></i>info@alfazza.my.id</p>
                         <div class="d-flex pt-2">
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social"
+                                href="https://www.facebook.com/profile.php?id=100064542862628"><i
+                                    class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-light btn-social"
+                                href="https://www.instagram.com/alfazzatech?igsh=MTAzcGFnMTJxYjV0Zg=="><i
+                                    class="fab fa-instagram"></i></a>
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <h5 class="text-white mb-4">Popular Link</h5>
-                        <a class="btn btn-link" href="">About Us</a>
-                        <a class="btn btn-link" href="">Contact Us</a>
+                        <a class="btn btn-link" href="about.php">About Us</a>
+                        <a class="btn btn-link" href="contact,php">Contact Us</a>
                         <a class="btn btn-link" href="">Privacy Policy</a>
                         <a class="btn btn-link" href="">Terms & Condition</a>
                         <a class="btn btn-link" href="">Career</a>
@@ -523,16 +531,13 @@
                     <div class="row">
                         <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
                             &copy; <a class="border-bottom" href="#">Alfazza solusi Indonesia</a>, All Right Reserved.
-
-                            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
                             Designed By <a class="border-bottom" href="https://petanimilenial.org">Petanimilenial</a>
                         </div>
                         <div class="col-md-6 text-center text-md-end">
                             <div class="footer-menu">
-                                <a href="">Home</a>
-                                <a href="">Cookies</a>
-                                <a href="">Help</a>
-                                <a href="">FQAs</a>
+                                <a href="index.php">Home</a>
+                                <a href="cookies.php">Cookies</a>
+                                <a href="faqp.php">FQAs</a>
                             </div>
                         </div>
                     </div>
@@ -540,9 +545,6 @@
             </div>
         </div>
         <!-- Footer End -->
-
-
-
 
         <!-- JavaScript Libraries -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

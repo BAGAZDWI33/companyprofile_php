@@ -167,13 +167,15 @@
                 <div class="row align-items-center" style="height: 250px;">
                     <div class="col-12 col-md-6">
                         <h3 class="text-white">Ingin berdiskusi ide produk untuk Solusi Teknologi anda?</h3>
-                        <small class="text-white">mulai dari sekarang bersama Alfazza Solusi Indonesia </small>
-                        <div class="position-relative w-100 mt-3">
-                            <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text"
-                                placeholder="Enter Your Email" style="height: 48px;">
-                            <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i
-                                    class="fa fa-paper-plane text-primary fs-4"></i></button>
-                        </div>
+                        <small class="text-white">Mulai dari sekarang bersama Alfazza Solusi Indonesia</small>
+                        <form action="send-email.php" method="POST">
+                            <div class="position-relative w-100 mt-3">
+                                <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="email"
+                                    name="email" placeholder="Enter Your Email" style="height: 48px;" required>
+                                <button type="submit" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i
+                                        class="fa fa-paper-plane text-primary fs-4"></i></button>
+                            </div>
+                        </form>
                     </div>
                     <div class="col-md-6 text-center mb-n5 d-none d-md-block">
                         <img class="img-fluid mt-5" style="height: 250px;" src="img/newsletter.png">
@@ -355,16 +357,13 @@
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
                         &copy; <a class="border-bottom" href="#">Alfazza solusi Indonesia</a>, All Right Reserved.
-
-                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
                         Designed By <a class="border-bottom" href="https://petanimilenial.org">Petanimilenial</a>
                     </div>
                     <div class="col-md-6 text-center text-md-end">
                         <div class="footer-menu">
-                            <a href="">Home</a>
-                            <a href="">Cookies</a>
-                            <a href="">Help</a>
-                            <a href="">FQAs</a>
+                            <a href="index.php">Home</a>
+                            <a href="cookies.php">Cookies</a>
+                            <a href="faqp.php">FQAs</a>
                         </div>
                     </div>
                 </div>
