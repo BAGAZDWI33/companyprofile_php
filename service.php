@@ -116,7 +116,7 @@
                         <div class="service-icon flex-shrink-0">
                             <img src="img/gambar1.png" alt="SEO Icon" width="60">
                         </div>
-                        <h5 class="mb-3"> Hardware Installation</h5>
+                        <h5 class="mb-3"> HARDWARE INSTALATION</h5>
                         <p>Pengadaan Komputer, Laptop,
                             IoT, Barrier Gate,
                             Perlengkapan Kasir, Mesin
@@ -180,10 +180,13 @@
                             <p><i class="fa fa-envelope me-3"></i>info@alfazza.my.id</p>
                             <div class="d-flex pt-2">
                                 <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-light btn-social" href=""><i
+                                <a class="btn btn-outline-light btn-social"
+                                    href="https://www.facebook.com/profile.php?id=100064542862628"><i
                                         class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                                <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-outline-light btn-social"
+                                    href="https://www.instagram.com/alfazzatech?igsh=MTAzcGFnMTJxYjV0Zg=="><i
+                                        class="fab fa-instagram"></i></a>
                                 <a class="btn btn-outline-light btn-social" href=""><i
                                         class="fab fa-linkedin-in"></i></a>
                             </div>
@@ -200,22 +203,31 @@
                             <h5 class="text-white mb-4">Project Gallery</h5>
                             <div class="row g-2">
                                 <div class="col-4">
-                                    <img class="img-fluid" src="img/portfolio-1.jpg" alt="Image">
+                                    <img class="img-fluid" src="img/projek3.jpg" alt="Image">
                                 </div>
                                 <div class="col-4">
-                                    <img class="img-fluid" src="img/portfolio-2.jpg" alt="Image">
+                                    <img class="img-fluid" src="img/projek2.jpg" alt="Image">
                                 </div>
                                 <div class="col-4">
-                                    <img class="img-fluid" src="img/portfolio-3.jpg" alt="Image">
+                                    <img class="img-fluid" src="img/projek4.png" alt="Image">
                                 </div>
                                 <div class="col-4">
-                                    <img class="img-fluid" src="img/portfolio-4.jpg" alt="Image">
+                                    <img class="img-fluid" src="img/sistem antrian.jpg" alt="Image">
                                 </div>
                                 <div class="col-4">
-                                    <img class="img-fluid" src="img/portfolio-5.jpg" alt="Image">
+                                    <img class="img-fluid" src="img/program kasir.jpg" alt="Image">
                                 </div>
                                 <div class="col-4">
-                                    <img class="img-fluid" src="img/portfolio-6.jpg" alt="Image">
+                                    <img class="img-fluid" src="img/penambahan fitur cetak label.jpg" alt="Image">
+                                </div>
+                                <div class="col-4">
+                                    <img class="img-fluid" src="img/cctv.jpg" alt="Image">
+                                </div>
+                                <div class="col-4">
+                                    <img class="img-fluid" src="img/mesin antrian.jpg" alt="Image">
+                                </div>
+                                <div class="col-4">
+                                    <img class="img-fluid" src="img/rangkaian quis.jpg" alt="Image">
                                 </div>
                             </div>
                         </div>
@@ -256,7 +268,9 @@
             </div>
             <!-- Footer End -->
 
-
+            <!-- Back to Top -->
+            <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i
+                    class="bi bi-arrow-up"></i></a>
 
 
             <!-- JavaScript Libraries -->
@@ -278,7 +292,7 @@
 
 <!-- Tombol Melayang -->
 <div class="floating-buttons">
-    <a href="https://wa.me/6285648973921" class="whatsapp-button" target="_blank">
+    <a href="https://wa.me/6285179975120" class="whatsapp-button" target="_blank">
         <img src="img/logo_WA.svg" alt="WhatsApp">
     </a>
     <a href="https://web.facebook.com/people/PT-Alfazza-Solusi-Indonesia/100064542862628/" class="facebook-button"

@@ -133,7 +133,7 @@
                                         <a class="btn btn-square text-primary bg-white my-1" href=""><i
                                                 class="fab fa-linkedin-in"></i></a>
                                     </div>
-                                    <img class="img-fluid rounded w-100" src="img/image 1.png" alt="">
+                                    <img class="img-fluid rounded w-100" src="img/Foto EKO.png" alt="">
                                 </div>
                                 <div class="px-4 py-3">
                                     <h5 class="fw-bold m-0">Eko Apriliyani</h5>
@@ -155,7 +155,7 @@
                                         <a class="btn btn-square text-primary bg-white my-1" href=""><i
                                                 class="fab fa-linkedin-in"></i></a>
                                     </div>
-                                    <img class="img-fluid rounded w-100" src="img/image 2.png" alt="">
+                                    <img class="img-fluid rounded w-100" src="img/Foto HENDRAWAN.png" alt="">
                                 </div>
                                 <div class="px-4 py-3">
                                     <h5 class="fw-bold m-0">Hendrawan Oktavianto</h5>
@@ -177,7 +177,7 @@
                                         <a class="btn btn-square text-primary bg-white my-1" href=""><i
                                                 class="fab fa-linkedin-in"></i></a>
                                     </div>
-                                    <img class="img-fluid rounded w-100" src="img/image 3.png" alt="">
+                                    <img class="img-fluid rounded w-100" src="img/Foto IRVAN RIVIANDY.png" alt="">
                                 </div>
                                 <div class="px-4 py-3">
                                     <h5 class="fw-bold m-0">Irvan Riviandy</h5>
@@ -188,51 +188,57 @@
                     </div>
                 </div>
             </div>
-            <!-- Team End -->
+        </div>
+    </div>
+    <!-- Team End -->
 
-            <!-- Team Start -->
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item">
-                        <div class="d-flex">
-                            <div class="flex-shrink-0 d-flex flex-column align-items-center mt-4 pt-5"
-                                style="width: 75px;">
-                                <a class="btn btn-square text-primary bg-white my-1" href=""><i
-                                        class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square text-primary bg-white my-1" href=""><i
-                                        class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square text-primary bg-white my-1" href=""><i
-                                        class="fab fa-instagram"></i></a>
-                                <a class="btn btn-square text-primary bg-white my-1" href=""><i
-                                        class="fab fa-linkedin-in"></i></a>
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container px-lg-5">
+            <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0 d-flex flex-column align-items-center mt-4 pt-5"
+                                    style="width: 75px;">
+                                    <a class="btn btn-square text-primary bg-white my-1" href=""><i
+                                            class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square text-primary bg-white my-1" href=""><i
+                                            class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square text-primary bg-white my-1" href=""><i
+                                            class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square text-primary bg-white my-1" href=""><i
+                                            class="fab fa-linkedin-in"></i></a>
+                                </div>
+                                <img class="img-fluid rounded w-100" src="img/Foto AGISNA.png" alt="">
                             </div>
-                            <img class="img-fluid rounded w-100" src="img/image 4.png" alt="">
-                        </div>
-                        <div class="px-4 py-3">
-                            <h5 class="fw-bold m-0">M. AGISNA YUDIANSYAH</h5>
-                            <small>Graphic Design Manager</small>
+                            <div class="px-4 py-3">
+                                <h5 class="fw-bold m-0"> M. AGISNA YUDIANSYAH</h5>
+                                <small>Graphic Design Manager</small>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item">
-                        <div class="d-flex">
-                            <div class="flex-shrink-0 d-flex flex-column align-items-center mt-4 pt-5"
-                                style="width: 75px;">
-                                <a class="btn btn-square text-primary bg-white my-1" href=""><i
-                                        class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square text-primary bg-white my-1" href=""><i
-                                        class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square text-primary bg-white my-1" href=""><i
-                                        class="fab fa-instagram"></i></a>
-                                <a class="btn btn-square text-primary bg-white my-1" href=""><i
-                                        class="fab fa-linkedin-in"></i></a>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="team-item">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0 d-flex flex-column align-items-center mt-4 pt-5"
+                                    style="width: 75px;">
+                                    <a class="btn btn-square text-primary bg-white my-1" href=""><i
+                                            class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square text-primary bg-white my-1" href=""><i
+                                            class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square text-primary bg-white my-1" href=""><i
+                                            class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square text-primary bg-white my-1" href=""><i
+                                            class="fab fa-linkedin-in"></i></a>
+                                </div>
+                                <img class="img-fluid rounded w-100" src="img/Foto GUSDEAN.png" alt="">
                             </div>
-                            <img class="img-fluid rounded w-100" src="img/image 5.png" alt="">
-                        </div>
-                        <div class="px-4 py-3">
-                            <h5 class="fw-bold m-0">MUHAMAD GUSDEAN MUHTAR</h5>
-                            <small> Programmer</small>
+                            <div class="px-4 py-3">
+                                <h5 class="fw-bold m-0">MUHAMAD GUSDEAN MUHTAR</h5>
+                                <small>Programmer</small>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -240,7 +246,11 @@
         </div>
     </div>
     </div>
+    </div>
+    </div>
+    </div>
     <!-- Team End -->
+
 
     <!-- Footer Start -->
     <div class="container-fluid bg-primary text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
@@ -254,9 +264,13 @@
                     <p><i class="fa fa-envelope me-3"></i>info@alfazza.my.id</p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social"
+                            href="https://www.facebook.com/profile.php?id=100064542862628"><i
+                                class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social"
+                            href="https://www.instagram.com/alfazzatech?igsh=MTAzcGFnMTJxYjV0Zg=="><i
+                                class="fab fa-instagram"></i></a>
                         <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
@@ -272,22 +286,22 @@
                     <h5 class="text-white mb-4">Project Gallery</h5>
                     <div class="row g-2">
                         <div class="col-4">
-                            <img class="img-fluid" src="img/portfolio-1.jpg" alt="Image">
+                            <img class="img-fluid" src="img/projek3.jpg" alt="Image">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid" src="img/portfolio-2.jpg" alt="Image">
+                            <img class="img-fluid" src="img/projek2.jpg" alt="Image">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid" src="img/portfolio-3.jpg" alt="Image">
+                            <img class="img-fluid" src="img/projek4.png" alt="Image">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid" src="img/portfolio-4.jpg" alt="Image">
+                            <img class="img-fluid" src="img/sistem antrian.jpg" alt="Image">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid" src="img/portfolio-5.jpg" alt="Image">
+                            <img class="img-fluid" src="img/program kasir.jpg" alt="Image">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid" src="img/portfolio-6.jpg" alt="Image">
+                            <img class="img-fluid" src="img/penambahan fitur cetak label.jpg" alt="Image">
                         </div>
                     </div>
                 </div>
@@ -325,7 +339,8 @@
         </div>
         <!-- Footer End -->
 
-
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
 
 
         <!-- JavaScript Libraries -->
@@ -347,7 +362,7 @@
 
 <!-- Tombol Melayang -->
 <div class="floating-buttons">
-    <a href="https://wa.me/6285648973921" class="whatsapp-button" target="_blank">
+    <a href="https://wa.me/6285179975120" class="whatsapp-button" target="_blank">
         <img src="img/logo_WA.svg" alt="WhatsApp">
     </a>
     <a href="https://web.facebook.com/people/PT-Alfazza-Solusi-Indonesia/100064542862628/" class="facebook-button"

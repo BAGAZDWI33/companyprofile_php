@@ -162,9 +162,13 @@
                         <p><i class="fa fa-envelope me-3"></i>info@alfazza.my.id</p>
                         <div class="d-flex pt-2">
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social"
+                                href="https://www.facebook.com/profile.php?id=100064542862628"><i
+                                    class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-light btn-social"
+                                href="https://www.instagram.com/alfazzatech?igsh=MTAzcGFnMTJxYjV0Zg=="><i
+                                    class="fab fa-instagram"></i></a>
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
@@ -177,26 +181,18 @@
                         <a class="btn btn-link" href="">Career</a>
                     </div>
                     <div class="col-md-6 col-lg-3">
-                        <h5 class="text-white mb-4">Project Gallery</h5>
+                        <h5 class="text-white mb-4">Lokasi Kami</h5>
                         <div class="row g-2">
-                            <div class="col-4">
-                                <img class="img-fluid" src="img/portfolio-1.jpg" alt="Image">
+                            <!-- map start -->
+                            <!-- HTML: Google Maps Iframe -->
+                            <div class="map-container">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2295819551196!2d107.1232742!3d-6.2334378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698da8f960a9af%3A0x9d523c557d71c8ca!2sPT%20Alfazza%20Solusi%20Indonesia!5e0!3m2!1sid!2sid!4v1726208900058!5m2!1sid!2sid"
+                                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
-                            <div class="col-4">
-                                <img class="img-fluid" src="img/portfolio-2.jpg" alt="Image">
-                            </div>
-                            <div class="col-4">
-                                <img class="img-fluid" src="img/portfolio-3.jpg" alt="Image">
-                            </div>
-                            <div class="col-4">
-                                <img class="img-fluid" src="img/portfolio-4.jpg" alt="Image">
-                            </div>
-                            <div class="col-4">
-                                <img class="img-fluid" src="img/portfolio-5.jpg" alt="Image">
-                            </div>
-                            <div class="col-4">
-                                <img class="img-fluid" src="img/portfolio-6.jpg" alt="Image">
-                            </div>
+
+                            <!-- map end -->
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3">
@@ -235,7 +231,8 @@
     </div>
     <!-- Footer End -->
 
-
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->
@@ -257,7 +254,7 @@
 
 <!-- Tombol Melayang -->
 <div class="floating-buttons">
-    <a href="https://wa.me/6285648973921" class="whatsapp-button" target="_blank">
+    <a href="https://wa.me/6285179975120" class="whatsapp-button" target="_blank">
         <img src="img/logo_WA.svg" alt="WhatsApp">
     </a>
     <a href="https://web.facebook.com/people/PT-Alfazza-Solusi-Indonesia/100064542862628/" class="facebook-button"

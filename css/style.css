@@ -148,7 +148,7 @@ h6,
         border-bottom: 1px solid rgba(256, 256, 256, .1);
         z-index: 999;
     }
-    
+
     .sticky-top.navbar-light {
         position: fixed;
         background: #FFFFFF;
@@ -419,33 +419,62 @@ h6,
     opacity: 1;
     transition-delay: .15s;
 }
+
 /*** Vendor Carousel ***/
-.vendor-carousel {
-    display: flex;
-    flex-direction: row; /* Carousel is horizontal */
-    overflow-x: auto; /* Horizontal scrolling */
-    overflow-y: hidden;
-    scroll-behavior: smooth;
-}
-
-/* Spacing and layout for images */
-.vendor-carousel img {
-    width: 200px;
-    height: auto;
-    margin-right: 15px;
+/* Container utama untuk section "Klien Kami" */
+.bg-blue {
+    background-color: #f7f9fc; /* Warna latar belakang lembut */
+    padding: 40px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Shadow halus untuk tampilan elegan */
 }
 
-/* Hide scrollbar */
-.vendor-carousel::-webkit-scrollbar {
-    display: none;
+/* Style untuk heading section */
+h6.position-relative.d-inline.text-primary.ps-4 {
+    font-size: 1.2rem;
+    color: #007bff; /* Warna biru elegan */
+    font-weight: bold;
 }
 
-.vendor-carousel {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+h2.mt-2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
 }
+
+/* Gambar logo di carousel */
+.owl-carousel .item img {
+    max-width: 150px;
+    margin: 0 auto;
+    display: block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 8px;
+}
+
+/* Efek hover untuk logo */
+.owl-carousel .item img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsif: tampilan untuk perangkat mobile (satu logo per slide) */
+@media (max-width: 768px) {
+    .owl-carousel .item img {
+        max-width: 120px; /* Ukuran logo lebih kecil di mobile */
+    }
+
+    .owl-carousel .item {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    /* Pastikan hanya satu item muncul dalam satu slide pada perangkat mobile */
+    .owl-carousel .owl-stage {
+        display: flex;
+        justify-content: center;
+    }
+}
+
 
 
 /*** Footer ***/
@@ -514,4 +543,44 @@ h6,
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;   /* Jarak dari bawah */
+    left: 20px;     /* Jarak dari kiri */
+    z-index: 100;   /* Memastikan elemen ini berada di atas elemen lain */
+}
+
+.back-to-top i {
+    font-size: 24px;
+}
+
+.back-to-top:hover {
+    opacity: 0.8;   /* Efek saat dihover */
+}
+
+/** map css **/
+/* Pastikan kontainer utama (misal .content) memiliki lebar yang diinginkan */
+.content {
+    width: 100%; /* Sesuaikan dengan desain web Anda, misal 80% dari lebar halaman */
+    margin: 0 auto; /* Agar terpusat */
+}
+
+/* Container untuk peta */
+.map-container {
+    position: relative;
+    width: 100%;      /* Peta mengikuti lebar dari kontainer .content */
+    padding-bottom: 56.25%;  /* Rasio 16:9 agar responsif */
+    height: 0;
+    overflow: hidden;
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;      /* Mengisi lebar penuh kontainer induk */
+    height: 100%;     /* Mengisi tinggi penuh kontainer induk */
+    border: 0;        /* Menghilangkan border */
 }
